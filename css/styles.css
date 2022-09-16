@@ -50,6 +50,7 @@ h1{
 nav {
     text-align: center;
     padding-left: 0px;
+    padding-right: 40px;
 }
 
 nav li {
@@ -76,5 +77,6 @@ nav a:visited {
 
 nav ul{
     padding-left: 0px;
+    padding-right: 40px;
 }
 
