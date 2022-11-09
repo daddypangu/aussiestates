@@ -10,12 +10,16 @@ html{
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color: #4B4B4B;
+    color: #39395f;
     font-style: normal;
     font-weight: 400;
     font-size: 1em;
-    background-color: #f5f5f5;
+    background-color: #f1faee
 
+}
+
+main{
+    background-color: #a8d8dc;
 }
 
 
@@ -40,8 +44,25 @@ h1{
     text-align: center;
     padding-top: 10px;
     margin-top: 10px;
-    color: aqua;
+    color: #f1faee;
     margin-bottom: 10px;
+    padding-bottom: 5px;
+
+
+}
+
+h1:hover{
+    color:#d8d8d8 ;
+
+
+}
+h3{
+    margin-bottom: 5px; margin-top: 30px; text-decoration: underline;
+
+}
+  
+h2{   
+    margin-bottom: 5px; text-decoration: underline;
 
 }
 
@@ -66,9 +87,25 @@ nav {
 }
 
 nav li {
-    padding: 15px;
+    padding: 10px;
     list-style: none;
     display: inline;
+    color: #f1faee;
+    border: 5px ;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    background-color: #e63946;
+    bottom: 10px;
+    
+    
+    
+
+}
+
+nav li:hover{
+
+    box-shadow: 4px 5px 10px #b99396;
 }
 
 
@@ -79,12 +116,14 @@ nav a:link {
 
 nav a:hover {
     color: aqua;
+    
 
     
 }
 
 nav a:visited {
     text-decoration: none;
+    color: #f1faee;
 }
 
 nav ul{
@@ -93,6 +132,9 @@ nav ul{
     padding-top: 0px;
     margin-bottom: 0px;
     margin-top: 10px;
+    color: #f1faee;
+    
+    
 
 }
 
@@ -102,12 +144,15 @@ nav ul{
     border-collapse:collapse;
     padding:5px;
     margin:auto;
+    background-color: #1d3557;
 }
+
 .contact-table th {
     border:1px solid #C0C0C0;
     padding:5px;
     background:#F0F0F0;
 }
+
 .contact-table td {
     border:1px solid #C0C0C0;
     padding:5px;
@@ -141,10 +186,12 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    color: #000000;
 }
 
+
 aside{
-    position: static;
+    /* position: static; */
     width: 30%;
     float: left;
     margin-left: 5%;
@@ -214,23 +261,27 @@ footer{
 }  
 
 .item1{
-     grid-column: 1 / span 3; 
+     grid-column: 1 / span 3;
+     margin-top: 30px; 
 } 
 
 .item2{
     grid-column: 4; 
+    margin-top: 45px;
 
 } 
 
 .item3{ 
     grid-column: 1; 
+    padding-top: 40px;
 
 }  
 
 .item4{ 
     grid-column: 2/ span 3; 
     /* vertical-align: middle: */
-    padding-top: 80px;
+    padding-top: 30px;
+    /* margin-bottom: 20px; */
 }
    
 figcaption{
@@ -241,14 +292,18 @@ font-size: 70%;
 
 header{
     margin-bottom: 0px;
-    padding-bottom: 10px;
-
+    padding-bottom: 17px;
+    background-color: #45739b;
+    
+    
 
 
 }
 
 .links{
-    line-height: 1.5;
+    line-height: 1.25;
+    padding-left: 15.5px;
+    margin-top: 0px;
 }
 
 
