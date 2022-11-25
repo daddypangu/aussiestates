@@ -14,7 +14,7 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 1em;
-    background-color: #054829;
+    background-color: #283618;
     max-width: 1200px;
     
 
@@ -80,6 +80,7 @@ nav{
     height: 110px;
 }
 
+
 #mobile_links ul{
     margin-top: 0px;
     margin-bottom: 0px;
@@ -129,9 +130,9 @@ nav{
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    /* margin-left: -200px;
-    left: 50%;
-    position: absolute; */
+    /* /* margin-left: -200px;
+    left: 50%; */
+    /* position: fixed; */
 
 }
 
@@ -161,6 +162,11 @@ h1{
 
 }
 
+.index_lorem{
+    text-align: center;
+    color: black;
+}
+
 h2{
     text-align: center;
     color: #EEEEEE;
@@ -173,11 +179,31 @@ h2{
     border-radius: 10px;
     box-shadow: rgb(27, 27, 27) 3px 4px 4px;
     font-size: 22.5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.kalamunda{
+    text-align: center;
+    color: #F5D5AE;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+
+#kal1{
+    text-align: center;
+    color: #F5D5AE;
+    line-height: 200%;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 #rect1{
     background-color: #333333;
-    height: 280px;
+    height: 310px;
     width: 450px;
     /* border: 10px; */
     border-radius: 30px;
@@ -189,15 +215,29 @@ h2{
 
 #rect2{
     background-color: #333333;
-    height: 280px;
+    height: 310px;
     width: 450px;
     /* border: 10px; */
     border-radius: 30px;
     float: right;
     margin-right: 20px;
-    
-    
 
+}
+
+
+.kalamunda_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-bottom: 10px;
+    
+}
+
+iframe{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
 }
 
 .logo{
@@ -214,7 +254,61 @@ h2{
 
 }
 
+image_set_1{
+    background-color: black;
+    width: auto;
+    height: auto;
+    padding-top: 10px;
+}
+
+.sect_2{
+    background-color: black;
+    height: 252px;
+    padding-top: 20px;
+}
+
+footer{
+    width: auto;
+    display: block;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(black, #056839);
+}
+
+footer p{
+    color: red;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+footer a{
+    /* text-decoration: none; */
+    /* padding-top: 35px; */
+    color: white;
+    list-style: none;
+    text-align: center;
+    /* margin: auto; */
+    /* top: 30px;
+    margin-top: 35px; */
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+footer ul{
+    padding: 0px;
+    margin-top: 0%;
+    padding-top: 35px;
+}
+
 @media only screen and (max-width: 820px) {
+
+    #warning_message{
+        display: none;
+    }
+
     nav ul {
       display: none;
     }
@@ -229,7 +323,16 @@ h2{
     }
 
     .where_we_walk{
-        height: 820px;
+        height: 940px;
+    }
+
+    image_set_1{
+        height: 900px;
+        
+    }
+
+    .sect_2{
+        height: 100%;
     }
 
     h1{
@@ -238,25 +341,78 @@ h2{
         width: 300px;
     }
 
+    h2{
+        font-size: 27px;
+        width: 220px;
+
+    }
+
     #rect1{
         margin: auto;
-        width: 95%;
+        width: 100%;
         /* correct for responsiveness */
         padding: 10px;
         margin-bottom: 10px;
-        padding-left: 8px;
+        padding-left: 0px;
+        padding-right: 0px;
 
     }
 
     #rect2{
-        width: 95%;
+        width: 100%;
         margin: auto;
         padding: 10px;
-        padding-left: 8px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    iframe{
+        /* width: 355PX; */
+        width: 100%;
+        min-width: 355px;
+        /* max-width: 394px; */
+        height: 255PX;
+
+    }
+
+    .kalamunda_img1{
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    .kalamunda_img2{
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    .kalamunda_img3{
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+
+    footer{
+        height: 117px;
     }
   }
 
   @media only screen and (min-width: 821px) {
+
+    #warning_message{
+        display: none;
+    }
+
     .topnav{
         display: none;
     }
@@ -266,11 +422,78 @@ h2{
 
     }
 
+    .kalamunda_img1{
+        max-width: 60%;
+        max-height: 60%;
+        width: auto;
+        height: auto;
+        float: left;
+        margin-left: 40px;
+        margin-bottom: 20px;
+        display: block;
+        padding-right: 10px;
+    }
+
+    .kalamunda_img2{
+        max-width: 60%;
+        max-height: 60%;
+        width: auto;
+        height: auto;
+        float: right;
+        margin-right: 40px;
+        margin-bottom: 20px;
+        display: block;
+        padding-left: 10px;
+    }
+
+    .kalamunda_img3{
+        max-width: 60%;
+        max-height: 60%;
+        width: auto;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+
+
+    .image_set_1{
+        height: 370px;
+        display: block;
+        
+    }
+
+    footer{
+        height: 155px;
+    }
+
+
 
     
     
     } 
 
+
+  @media only screen and (min-width: 820px) and (max-width: 1160px){
+    #content{
+        display: none;
+        background-color: #04AA6D;
+    }
+
+    #warning_message{
+        display:inline;
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        display: block;
+        margin-top: 250px;
+        margin-bottom: 250px;
+        width: 100%;
+        height: auto;
+    }
+
+
+
+  }
 
 
 
@@ -306,8 +529,6 @@ h2{
   }
   
 
- 
-  
   .active {
     background-color: #04AA6D;
     color: white;
